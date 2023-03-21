@@ -57,3 +57,48 @@ section#tela_login > div#formulario{
     padding: 10px;
 
 }
+
+form >#butao > input[type=submit] {
+    margin: 8% 0% 0% 10%;
+    background-color: #33a238;
+    border: none;
+    width: 80%;
+    height: 4vh;
+    border-radius: 10px;
+
+}
+form >#butao > input[type=submit]:hover{
+    color: aliceblue;
+    background-color: rgb(123, 234, 123);
+}
+.campo > label{
+    display: none;
+}
+.campo{
+    display: block;
+    background-color: #5f2c82;
+    margin: 6px 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+.campo > span{
+    color: aliceblue;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+.campo >input{
+    background-color: aquamarine;
+    font-size: 1em;
+    width: calc(100% - 20%);
+    height: 100%;
+    transform: translatey(-25%);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 4px;
+}
+.campo >input:hover{
+    background-color: aliceblue;
+}
