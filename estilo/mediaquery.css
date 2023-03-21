@@ -7,6 +7,14 @@
         width: 90%;
 
     }
+    #formulario >h1{
+        padding-top: 120px;
+        font-size: 30px
+    }
+    #formulario > p{
+        padding: 30px;
+        font-size: 1.1em;
+    }
     body{
         background: linear-gradient(to top, #5f2c82, rgb(57, 115, 57));
     }
@@ -32,6 +40,15 @@
         width: 70%;
 
     }
+     #formulario >h1{
+        padding-top: 120px;
+        font-size: 35px
+    }
+    #formulario > p{
+        padding: 30px;
+        font-size: 1.2em;
+    }
+    
 
     section#tela_login > div#image{
         float: right;
